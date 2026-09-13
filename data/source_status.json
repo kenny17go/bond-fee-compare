@@ -1,71 +1,93 @@
 {
-  "checked_at": null,
+  "checked_at": "2026-09-13T02:22:19.250493+00:00",
   "sources": {
     "玉山銀行": {
       "url": "https://wealth.esunbank.com/zh-tw/-/media/ESUNBANK/Files/Wealth/Bonds/bond_A924.pdf",
       "changed": false,
-      "ok": null,
-      "last_hash": null
+      "ok": true,
+      "last_hash": "d94aab4327504fd79bd0a7bedb95860809f6c5f0ccf7124a139a2d43e62f853a",
+      "http_status": 200,
+      "error": null
     },
     "國泰世華": {
       "url": "https://www.cathaybk.com.tw/cathaybk/personal/investment/offshore-bond/announcement/#tab2",
       "changed": false,
-      "ok": null,
-      "last_hash": null
+      "ok": true,
+      "last_hash": "0f417755d74d5e412de97dea14420b4ca241b3c6fe397edd537f7e4d9fbe8019",
+      "http_status": 200,
+      "error": null
     },
     "台北富邦銀行": {
       "url": "https://www.fubon.com/banking/personal/fund_trust/Straight_bond/Straight_bond.htm",
       "changed": false,
-      "ok": null,
-      "last_hash": null
+      "ok": true,
+      "last_hash": "77dd82fc50a48967f0c4269cc8faa8778839dfb9621faf264ee6eaf29db5674a",
+      "http_status": 200,
+      "error": null
     },
     "中國信託": {
       "url": "https://www.ctbcbank.com/twrbo/zh_tw/inv_index/inv_bond/inv_investmentproducts_bondoverview0.html",
       "changed": false,
-      "ok": null,
-      "last_hash": null
+      "ok": true,
+      "last_hash": "ad4ff55e460b033b51facfc1a52faa4fd359778ef33eeecd25f8194dfab7877e",
+      "http_status": 202,
+      "error": null
     },
     "台新銀行": {
       "url": "https://www.taishinbank.com.tw/TSB/personal/investment/offshore-bond/offshore-bond/TSBankGridPage-000088-00001/",
       "changed": false,
-      "ok": null,
-      "last_hash": null
+      "ok": true,
+      "last_hash": "cf4f1e9b18ab5cbcd023fb9b39d8d486cef7a561be7656ffc4909d987b47be6c",
+      "http_status": 200,
+      "error": null
     },
     "DBS 星展銀行": {
       "url": "https://www.dbs.com.tw/treasures-zh/investments/foreign-bond/dbs-foreign-bond",
       "changed": false,
-      "ok": null,
-      "last_hash": null
+      "ok": true,
+      "last_hash": "f9fd444f9313ee523e2a53a5afd8b5b87d4a20bf0d0f626dbf39c1cb012fbe52",
+      "http_status": 200,
+      "error": null
     },
     "富邦證券": {
       "url": "https://www.fbs.com.tw/FinancialManagementProducts/OverseasBonds",
       "changed": false,
-      "ok": null,
-      "last_hash": null
+      "ok": true,
+      "last_hash": "97e9145550c2de9e148f79af5d9570c1661328c1a6f73adf4608919d5c6a1351",
+      "http_status": 200,
+      "error": null
     },
     "元大證券": {
       "url": "https://wealth.yuanta.com.tw/WMECPortal/Wealth/ClientSrv/QA",
       "changed": false,
-      "ok": null,
-      "last_hash": null
+      "ok": false,
+      "last_hash": null,
+      "http_status": null,
+      "error": "HTTP Error 302: The HTTP server returned a redirect error that would lead to an infinite loop.\nThe last 30x error message was:\nFound"
     },
     "國泰證券": {
       "url": "https://www.cathaysec.com.tw/exclude_AL/other_products.aspx",
       "changed": false,
-      "ok": null,
-      "last_hash": null
+      "ok": true,
+      "last_hash": "b14b82f7a868444a22fe774e35aa956368e7acdb85808fb683b19b2bec9bd3e4",
+      "http_status": 200,
+      "error": null
     },
     "凱基證券": {
       "url": "https://mixtrade.kgi.com.tw/overseas/bond/",
       "changed": false,
-      "ok": null,
-      "last_hash": null
+      "ok": true,
+      "last_hash": "df95d161752b7c36313f6e8c10fa9f62171208d46be7c2c9960bfd287a433ed0",
+      "http_status": 200,
+      "error": null
     },
     "永豐金證券": {
       "url": "https://www.sinotrade.com.tw/Wealth/Wealth_7_1_2",
       "changed": false,
-      "ok": null,
-      "last_hash": null
+      "ok": true,
+      "last_hash": "f4417092afc125218a5fb5b8850b7e19530303bb3b7dd0b2404a7a5d318ea786",
+      "http_status": 200,
+      "error": null
     }
   }
 }
