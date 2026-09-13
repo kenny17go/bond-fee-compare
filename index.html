@@ -10,9 +10,18 @@
 <body>
 <header>
   <div class="wrap">
-    <div class="eyebrow">Bond Fee Compare Taiwan</div>
-    <h1>海外債券平台成本比較</h1>
-    <p>比較 11 家銀行與證券商的申購費、賣出費、持有費與內含成本。</p>
+    <div class="topnav">
+      <div>
+        <div class="eyebrow">Bond Fee Compare Taiwan</div>
+        <h1>海外債券平台成本比較</h1>
+        <p>比較 11 家銀行與證券商的海外債券交易成本。</p>
+      </div>
+      <nav>
+        <a class="active" href="./index.html">首頁</a>
+        <a href="./compare.html">費用分類比較</a>
+        <a href="./master.html">收費總表</a>
+      </nav>
+    </div>
   </div>
 </header>
 
@@ -26,7 +35,7 @@
       <label>持有年數</label>
       <input id="years" type="number" min="1" max="30" value="3">
     </div>
-    <div class="field switchfield">
+    <div class="field">
       <label>交易情境</label>
       <select id="exitMode">
         <option value="hold">持有到期</option>
@@ -41,34 +50,29 @@
     <div id="sourceCheck">來源檢查：—</div>
   </section>
 
-  <section class="compare-tabs" aria-label="比較模式">
-    <button class="tab active" data-mode="total">總成本</button>
-    <button class="tab" data-mode="buy">申購費</button>
-    <button class="tab" data-mode="sell">賣出費</button>
-    <button class="tab" data-mode="hold">持有費</button>
-    <button class="tab" data-mode="embedded">內含費用</button>
-  </section>
-
   <section class="summary-grid" id="summary"></section>
 
   <section class="card">
     <div class="section-title">
       <div>
-        <h2 id="rankingTitle">總成本排行榜</h2>
-        <p id="rankingNote">依你的投資金額、持有年數與退出情境計算。</p>
+        <h2>成本排行榜</h2>
+        <p>依目前輸入的投資金額、持有年數與是否提前賣出，估算可量化的顯性成本。</p>
       </div>
-      <div class="toolbar">
-        <select id="sortMode" aria-label="排序方式">
-          <option value="low">最低費用優先</option>
-          <option value="high">最高費用優先</option>
-          <option value="name">平台名稱</option>
-        </select>
-        <input id="filter" placeholder="搜尋平台…" />
-      </div>
+      <input id="filter" placeholder="搜尋平台…" />
     </div>
     <div class="table-wrap">
       <table>
-        <thead id="costHead"></thead>
+        <thead>
+          <tr>
+            <th>平台</th>
+            <th>類型</th>
+            <th>顯性成本區間</th>
+            <th>內含費用上限</th>
+            <th>線上交易</th>
+            <th>最低交易額</th>
+            <th>資料狀態</th>
+          </tr>
+        </thead>
         <tbody id="costBody"></tbody>
       </table>
     </div>
@@ -77,23 +81,20 @@
   <section class="card">
     <div class="section-title">
       <div>
-        <h2>11 家收費結構</h2>
-        <p>四類成本分開顯示；公告上限與實際固定費率採不同標示。</p>
+        <h2>11 家平台摘要</h2>
+        <p>首頁維持簡潔；詳細分類比較請到「費用分類比較」，完整欄位請到「收費總表」。</p>
       </div>
     </div>
     <div id="cards" class="platform-grid"></div>
   </section>
 
   <section class="notice">
-    <strong>重要：</strong>本頁為公開資料整理與成本估算，不代表實際成交報價。證券商常將手續費內含於成交價格，
-    官方公告的 5% 多為「每筆上限」，不代表實際一定收取 5%。實際交易前請以平台最新商品文件與成交報價為準。
+    <strong>重要：</strong>本頁為公開資料整理與成本估算，不代表實際成交報價。
+    內含於成交價格的手續費／通路服務費，以公告上限或揭露方式顯示，不視為實際固定費率。
   </section>
 </main>
 
-<footer>
-  <div class="wrap">GitHub Pages 靜態版 · 資料來源為各平台官方網站</div>
-</footer>
-
+<footer><div class="wrap">GitHub Pages 靜態版 · 資料來源為各平台官方網站</div></footer>
 <script src="./app.js"></script>
 </body>
 </html>

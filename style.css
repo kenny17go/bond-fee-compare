@@ -52,3 +52,13 @@ footer{background:#0b1f33;color:#c6d3df;padding:22px 0;font-size:13px}
   .summary-grid{grid-template-columns:1fr}.platform-grid{grid-template-columns:1fr}.statusbar{flex-direction:column}
   .section-title{align-items:stretch;flex-direction:column}.toolbar{min-width:0}.toolbar select,.toolbar input{max-width:none}
 }
+
+
+.topnav{display:flex;justify-content:space-between;gap:24px;align-items:flex-end}
+.topnav nav{display:flex;gap:8px;flex-wrap:wrap}
+.topnav nav a{color:#dbe7f1;text-decoration:none;padding:9px 12px;border-radius:9px;font-size:14px}
+.topnav nav a:hover,.topnav nav a.active{background:rgba(255,255,255,.14);color:white}
+.master-table{min-width:1800px}
+.master-table td{font-size:13px;min-width:130px}
+.master-table td:nth-child(3),.master-table td:nth-child(4),.master-table td:nth-child(5),.master-table td:nth-child(6),.master-table td:nth-child(15){min-width:280px}
+@media(max-width:760px){.topnav{align-items:flex-start;flex-direction:column}.topnav nav{width:100%;overflow:auto;flex-wrap:nowrap}.topnav nav a{white-space:nowrap}}

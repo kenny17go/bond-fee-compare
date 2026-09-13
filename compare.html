@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="theme-color" content="#0b1f33">
+  <title>費用分類比較｜海外債券平台</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+<header>
+  <div class="wrap">
+    <div class="topnav">
+      <div>
+        <div class="eyebrow">Bond Fee Compare Taiwan</div>
+        <h1>費用分類比較</h1>
+        <p>分別比較總成本、申購費、賣出費、持有費與內含費用。</p>
+      </div>
+      <nav>
+        <a href="./index.html">首頁</a>
+        <a class="active" href="./compare.html">費用分類比較</a>
+        <a href="./master.html">收費總表</a>
+      </nav>
+    </div>
+  </div>
+</header>
+
+<main class="wrap">
+  <section class="card controls">
+    <div class="field">
+      <label>投資本金（USD）</label>
+      <input id="principal" type="number" min="1000" step="1000" value="100000">
+    </div>
+    <div class="field">
+      <label>持有年數</label>
+      <input id="years" type="number" min="1" max="30" value="3">
+    </div>
+    <div class="field">
+      <label>交易情境</label>
+      <select id="exitMode">
+        <option value="hold">持有到期</option>
+        <option value="sell" selected>提前賣出</option>
+      </select>
+    </div>
+    <button id="recalc">重新計算</button>
+  </section>
+
+  <section class="compare-tabs">
+    <button class="tab active" data-mode="total">總成本</button>
+    <button class="tab" data-mode="buy">申購費</button>
+    <button class="tab" data-mode="sell">賣出費</button>
+    <button class="tab" data-mode="hold">持有費</button>
+    <button class="tab" data-mode="embedded">內含費用</button>
+  </section>
+
+  <section class="summary-grid" id="summary"></section>
+
+  <section class="card">
+    <div class="section-title">
+      <div>
+        <h2 id="rankingTitle">總成本排行榜</h2>
+        <p id="rankingNote">依目前情境計算。</p>
+      </div>
+      <div class="toolbar">
+        <select id="sortMode">
+          <option value="low">最低費用優先</option>
+          <option value="high">最高費用優先</option>
+          <option value="name">平台名稱</option>
+        </select>
+        <input id="filter" placeholder="搜尋平台…" />
+      </div>
+    </div>
+    <div class="table-wrap">
+      <table>
+        <thead id="costHead"></thead>
+        <tbody id="costBody"></tbody>
+      </table>
+    </div>
+  </section>
+
+  <section class="notice">
+    <strong>內含費用：</strong>此分頁僅比較各平台官方揭露的上限或揭露方式。
+    「每筆 ≤5%」不代表實際一定收 5%，實際交易仍要看成交報價。
+  </section>
+</main>
+
+<footer><div class="wrap">費用分類比較</div></footer>
+<script src="./compare.js"></script>
+</body>
+</html>
