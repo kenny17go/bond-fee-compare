@@ -1,0 +1,71 @@
+{
+  "checked_at": null,
+  "sources": {
+    "玉山銀行": {
+      "url": "https://wealth.esunbank.com/zh-tw/-/media/ESUNBANK/Files/Wealth/Bonds/bond_A924.pdf",
+      "changed": false,
+      "ok": null,
+      "last_hash": null
+    },
+    "國泰世華": {
+      "url": "https://www.cathaybk.com.tw/cathaybk/personal/investment/offshore-bond/announcement/#tab2",
+      "changed": false,
+      "ok": null,
+      "last_hash": null
+    },
+    "台北富邦銀行": {
+      "url": "https://www.fubon.com/banking/personal/fund_trust/Straight_bond/Straight_bond.htm",
+      "changed": false,
+      "ok": null,
+      "last_hash": null
+    },
+    "中國信託": {
+      "url": "https://www.ctbcbank.com/twrbo/zh_tw/inv_index/inv_bond/inv_investmentproducts_bondoverview0.html",
+      "changed": false,
+      "ok": null,
+      "last_hash": null
+    },
+    "台新銀行": {
+      "url": "https://www.taishinbank.com.tw/TSB/personal/investment/offshore-bond/offshore-bond/TSBankGridPage-000088-00001/",
+      "changed": false,
+      "ok": null,
+      "last_hash": null
+    },
+    "DBS 星展銀行": {
+      "url": "https://www.dbs.com.tw/treasures-zh/investments/foreign-bond/dbs-foreign-bond",
+      "changed": false,
+      "ok": null,
+      "last_hash": null
+    },
+    "富邦證券": {
+      "url": "https://www.fbs.com.tw/FinancialManagementProducts/OverseasBonds",
+      "changed": false,
+      "ok": null,
+      "last_hash": null
+    },
+    "元大證券": {
+      "url": "https://wealth.yuanta.com.tw/WMECPortal/Wealth/ClientSrv/QA",
+      "changed": false,
+      "ok": null,
+      "last_hash": null
+    },
+    "國泰證券": {
+      "url": "https://www.cathaysec.com.tw/exclude_AL/other_products.aspx",
+      "changed": false,
+      "ok": null,
+      "last_hash": null
+    },
+    "凱基證券": {
+      "url": "https://mixtrade.kgi.com.tw/overseas/bond/",
+      "changed": false,
+      "ok": null,
+      "last_hash": null
+    },
+    "永豐金證券": {
+      "url": "https://www.sinotrade.com.tw/Wealth/Wealth_7_1_2",
+      "changed": false,
+      "ok": null,
+      "last_hash": null
+    }
+  }
+}
