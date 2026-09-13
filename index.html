@@ -12,7 +12,7 @@
   <div class="wrap">
     <div class="eyebrow">Bond Fee Compare Taiwan</div>
     <h1>海外債券平台成本比較</h1>
-    <p>比較 11 家銀行與證券商的申購、持有、賣出與內含成本上限。</p>
+    <p>比較 11 家銀行與證券商的申購費、賣出費、持有費與內含成本。</p>
   </div>
 </header>
 
@@ -41,29 +41,34 @@
     <div id="sourceCheck">來源檢查：—</div>
   </section>
 
+  <section class="compare-tabs" aria-label="比較模式">
+    <button class="tab active" data-mode="total">總成本</button>
+    <button class="tab" data-mode="buy">申購費</button>
+    <button class="tab" data-mode="sell">賣出費</button>
+    <button class="tab" data-mode="hold">持有費</button>
+    <button class="tab" data-mode="embedded">內含費用</button>
+  </section>
+
   <section class="summary-grid" id="summary"></section>
 
   <section class="card">
     <div class="section-title">
       <div>
-        <h2>成本排行榜</h2>
-        <p>僅比較可量化顯性成本；「內含成交價」費用另列上限，不當作實際固定費率。</p>
+        <h2 id="rankingTitle">總成本排行榜</h2>
+        <p id="rankingNote">依你的投資金額、持有年數與退出情境計算。</p>
       </div>
-      <input id="filter" placeholder="搜尋平台…" />
+      <div class="toolbar">
+        <select id="sortMode" aria-label="排序方式">
+          <option value="low">最低費用優先</option>
+          <option value="high">最高費用優先</option>
+          <option value="name">平台名稱</option>
+        </select>
+        <input id="filter" placeholder="搜尋平台…" />
+      </div>
     </div>
     <div class="table-wrap">
       <table>
-        <thead>
-          <tr>
-            <th>平台</th>
-            <th>類型</th>
-            <th>顯性成本區間</th>
-            <th>內含費用上限</th>
-            <th>線上交易</th>
-            <th>最低交易額</th>
-            <th>資料狀態</th>
-          </tr>
-        </thead>
+        <thead id="costHead"></thead>
         <tbody id="costBody"></tbody>
       </table>
     </div>
@@ -72,8 +77,8 @@
   <section class="card">
     <div class="section-title">
       <div>
-        <h2>11 家收費標準</h2>
-        <p>點擊官方來源可直接核對最新規則。</p>
+        <h2>11 家收費結構</h2>
+        <p>四類成本分開顯示；公告上限與實際固定費率採不同標示。</p>
       </div>
     </div>
     <div id="cards" class="platform-grid"></div>
