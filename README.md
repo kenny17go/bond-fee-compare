@@ -39,3 +39,13 @@
 - `index.html`：恢復 V1 風格首頁（總成本試算）
 - `compare.html`：五種比較模式
 - `master.html`：11 家收費總表
+
+
+## Icon / PWA 圖示
+已加入：
+- `favicon.png`
+- `apple-touch-icon.png`
+- `assets/icon-512.png`
+- `manifest.webmanifest`
+
+三個頁面 `index.html`、`compare.html`、`master.html` 都已連結到這些 icon 設定。
