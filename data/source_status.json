@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-09-13T02:22:19.250493+00:00",
+  "checked_at": "2026-09-14T01:26:55.562284+00:00",
   "sources": {
     "玉山銀行": {
       "url": "https://wealth.esunbank.com/zh-tw/-/media/ESUNBANK/Files/Wealth/Bonds/bond_A924.pdf",
@@ -11,25 +11,25 @@
     },
     "國泰世華": {
       "url": "https://www.cathaybk.com.tw/cathaybk/personal/investment/offshore-bond/announcement/#tab2",
-      "changed": false,
+      "changed": true,
       "ok": true,
-      "last_hash": "0f417755d74d5e412de97dea14420b4ca241b3c6fe397edd537f7e4d9fbe8019",
+      "last_hash": "68a03a266aeca9bcdfc11a1404f9a83f7566e1e978e682978ec468f9f1b28d03",
       "http_status": 200,
       "error": null
     },
     "台北富邦銀行": {
       "url": "https://www.fubon.com/banking/personal/fund_trust/Straight_bond/Straight_bond.htm",
-      "changed": false,
+      "changed": true,
       "ok": true,
-      "last_hash": "77dd82fc50a48967f0c4269cc8faa8778839dfb9621faf264ee6eaf29db5674a",
+      "last_hash": "85fbad91d61689a2a43eb69ba2e2081afefa8594df418629fd3d9471287764d4",
       "http_status": 200,
       "error": null
     },
     "中國信託": {
       "url": "https://www.ctbcbank.com/twrbo/zh_tw/inv_index/inv_bond/inv_investmentproducts_bondoverview0.html",
-      "changed": false,
+      "changed": true,
       "ok": true,
-      "last_hash": "ad4ff55e460b033b51facfc1a52faa4fd359778ef33eeecd25f8194dfab7877e",
+      "last_hash": "03807f32721f8d9e497fee14525d521027455cb284c6e14b5210d2d0b8790510",
       "http_status": 202,
       "error": null
     },
@@ -51,9 +51,9 @@
     },
     "富邦證券": {
       "url": "https://www.fbs.com.tw/FinancialManagementProducts/OverseasBonds",
-      "changed": false,
+      "changed": true,
       "ok": true,
-      "last_hash": "97e9145550c2de9e148f79af5d9570c1661328c1a6f73adf4608919d5c6a1351",
+      "last_hash": "4d7adc51313e8fe5b763c7020e04bfc90b23e3784f480bc5f36f354d450d088f",
       "http_status": 200,
       "error": null
     },
@@ -83,9 +83,9 @@
     },
     "永豐金證券": {
       "url": "https://www.sinotrade.com.tw/Wealth/Wealth_7_1_2",
-      "changed": false,
+      "changed": true,
       "ok": true,
-      "last_hash": "f4417092afc125218a5fb5b8850b7e19530303bb3b7dd0b2404a7a5d318ea786",
+      "last_hash": "f1ce082f86de4844717221015a95467ecc790a081d13e697c53d7521277adc36",
       "http_status": 200,
       "error": null
     }
