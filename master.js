@@ -11,7 +11,14 @@ function render(){
  const q=(document.querySelector('#filter')?.value||'').toLowerCase();
  document.querySelector('#masterBody').innerHTML=DATA.platforms.filter(p=>p.name.toLowerCase().includes(q)).map(p=>{
   const s=STATUS?.sources?.[p.name],checkDate=fmtDate(STATUS?.checked_at);
-  const check=s?.ok?(s.changed?`${checkDate} ⚠️ 來源有變動`:`${checkDate} ✅`):STATUS?.checked_at?`${checkDate} ⚠️ 檢查失敗`:'尚未檢查';
+  let check='尚未檢查';
+  if(STATUS?.checked_at){
+   if(!s?.ok) check=`${checkDate} ⚠️ 檢查失敗`;
+   else if(s.change_level==='fee'||s.fee_change_suspected) check=`${checkDate} 🔴 疑似收費異動`;
+   else if(s.change_level==='general'||s.changed) check=`${checkDate} 🟡 一般變動`;
+   else check=`${checkDate} ✅ 已檢查`;
+  }
+  if(s?.change_reason) check+=`<div class="check-reason">${s.change_reason}</div>`;
   return `<tr>
  <td><strong>${p.name}</strong></td><td>${p.type}</td><td>${p.buy_fee_text||'—'}</td><td>${p.sell_fee_text||'—'}</td>
  <td>${p.custody_fee_text||'—'}</td><td>${p.embedded_fee_text||'—'}</td><td>${p.embedded_in_price||'—'}</td>
