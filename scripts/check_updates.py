@@ -26,7 +26,7 @@ result={"checked_at":datetime.datetime.now(datetime.timezone.utc).isoformat(),"s
 for p in data["platforms"]:
     name,url=p["name"],p["source"]
     prev=old.get("sources",{}).get(name,{})
-    item={"url":url,"changed":False,"ok":False,"last_hash":prev.get("last_hash"),"http_status":None,"error":None}
+    item={"url":url,"changed":False,"fee_change_suspected":False,"change_level":"none","change_reason":None,"ok":False,"last_hash":prev.get("last_hash"),"fee_hash":prev.get("fee_hash"),"http_status":None,"error":None}
     try:
         req=Request(url,headers={"User-Agent":"Mozilla/5.0 BondFeeCompare/1.0"})
         with urlopen(req,timeout=25) as r:
