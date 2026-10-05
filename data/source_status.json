@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-09-28T06:55:00.467324+00:00",
+  "checked_at": "2026-10-05T07:03:12.279583+00:00",
   "sources": {
     "玉山銀行": {
       "url": "https://wealth.esunbank.com/zh-tw/-/media/ESUNBANK/Files/Wealth/Bonds/bond_A924.pdf",
@@ -13,7 +13,7 @@
       "url": "https://www.cathaybk.com.tw/cathaybk/personal/investment/offshore-bond/announcement/#tab2",
       "changed": true,
       "ok": true,
-      "last_hash": "4d5d6ecb805ff5a52ecf1163a007263bb26a979574865212fcdd3f3f58ac9bb0",
+      "last_hash": "5dbd59f614dd8dbef54c7f259f1ec7a4c99ab1d288d511a39455510c302741a6",
       "http_status": 200,
       "error": null
     },
@@ -21,7 +21,7 @@
       "url": "https://www.fubon.com/banking/personal/fund_trust/Straight_bond/Straight_bond.htm",
       "changed": true,
       "ok": true,
-      "last_hash": "73feb7078645ab9806abc6c961fddd4edd7e1e1399d9302437e75bc02a3f8008",
+      "last_hash": "3160c613bb8c355fbb676fbb85b97a0011d909ceac294bf847156d7bcd98907e",
       "http_status": 200,
       "error": null
     },
@@ -29,15 +29,15 @@
       "url": "https://www.ctbcbank.com/twrbo/zh_tw/inv_index/inv_bond/inv_investmentproducts_bondoverview0.html",
       "changed": true,
       "ok": true,
-      "last_hash": "e5ffeb10db8d3ea80f4cdb22c5cf9083711b6e8b5442e481265a308b34e864cd",
+      "last_hash": "ea3f7cd4b9d9b7b1f251c150d6452194a45a5d04dc4f96d8f88dd44d77a37046",
       "http_status": 202,
       "error": null
     },
     "台新銀行": {
       "url": "https://www.taishinbank.com.tw/TSB/personal/investment/offshore-bond/offshore-bond/TSBankGridPage-000088-00001/",
-      "changed": false,
+      "changed": true,
       "ok": true,
-      "last_hash": "c41b463de4c2869838e8af1d14903eac2b818b6d664b451b3bbcef1c421710f8",
+      "last_hash": "867c43f274c0b58be307637a952a3386bd6dcb96026732a24c291e8520f02ddf",
       "http_status": 200,
       "error": null
     },
@@ -45,7 +45,7 @@
       "url": "https://www.dbs.com.tw/treasures-zh/investments/foreign-bond/dbs-foreign-bond",
       "changed": true,
       "ok": true,
-      "last_hash": "4f235ab1b7ee9eb94dca4421041a7be584577db71378a1f687c9beb5e857d3bd",
+      "last_hash": "f9fd444f9313ee523e2a53a5afd8b5b87d4a20bf0d0f626dbf39c1cb012fbe52",
       "http_status": 200,
       "error": null
     },
@@ -85,7 +85,7 @@
       "url": "https://www.sinotrade.com.tw/Wealth/Wealth_7_1_2",
       "changed": true,
       "ok": true,
-      "last_hash": "93002cb5d7a12103dff29ead66b4a05b8d52c2686dffb06f4456ccbe8475b987",
+      "last_hash": "cdd942cb596b7a7a7afb4a2f9c229b094e19e6f5bf2915df13454a1589446921",
       "http_status": 200,
       "error": null
     }
