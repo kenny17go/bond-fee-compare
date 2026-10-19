@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-10-12T07:21:40.788372+00:00",
+  "checked_at": "2026-10-19T06:13:27.510949+00:00",
   "sources": {
     "玉山銀行": {
       "url": "https://wealth.esunbank.com/zh-tw/-/media/ESUNBANK/Files/Wealth/Bonds/bond_A924.pdf",
@@ -20,7 +20,7 @@
       "change_level": "none",
       "change_reason": null,
       "ok": true,
-      "last_hash": "8273ed3aa0e55c5e7046b4ce300ae91645d2980537a39e5a02ce92fac8541613",
+      "last_hash": "bb6732865e0c740af60517705baec3b965835a7010d846b4540678b67167f313",
       "fee_hash": null,
       "http_status": 200,
       "error": null
@@ -32,7 +32,7 @@
       "change_level": "none",
       "change_reason": null,
       "ok": true,
-      "last_hash": "c4abca184d595892e556c690161ce18ba703a8e3c50b8156db81ac1376a82f07",
+      "last_hash": "f726cadb2746392f6c76aed63f74a62e47724d6465e5014b499104e249d4405e",
       "fee_hash": null,
       "http_status": 200,
       "error": null
@@ -44,7 +44,7 @@
       "change_level": "none",
       "change_reason": null,
       "ok": true,
-      "last_hash": "489357dac4d370faa052a496cef6a76e893c8d860635d619b020d22870d11f31",
+      "last_hash": "46b10987fa353d336d6a8480b7b7d513fd2a4cd0b078af465bc00ae29ec2f253",
       "fee_hash": null,
       "http_status": 202,
       "error": null
@@ -56,7 +56,7 @@
       "change_level": "none",
       "change_reason": null,
       "ok": true,
-      "last_hash": "c9771f1f280841304e7f1b29f7ae129b91aff32ba291433f6a56dac0e8f8de67",
+      "last_hash": "1f00962c73d1848ad186b6a7c42e7cd6bc6bf80d0f0bb93a1a2fa7d593e1bfff",
       "fee_hash": null,
       "http_status": 200,
       "error": null
@@ -68,7 +68,7 @@
       "change_level": "none",
       "change_reason": null,
       "ok": true,
-      "last_hash": "352c284c69e4a9b9aa404e6b632c6259d0ec86c0f8514d7317e0047aba9636ff",
+      "last_hash": "916c689020ce0710423bf3cb76301c6ad934b8310c55b2a76f9f41ee6b95649d",
       "fee_hash": null,
       "http_status": 200,
       "error": null
@@ -116,7 +116,7 @@
       "change_level": "none",
       "change_reason": null,
       "ok": true,
-      "last_hash": "6cbe928225f686f62b4602a504c55b53edb44447c4cc6375315cc09492b775bb",
+      "last_hash": "8eb67f4d295302652d25bea814dc0bae0776fa071dfe5263b9c67e4a59a21b61",
       "fee_hash": null,
       "http_status": 200,
       "error": null
@@ -128,7 +128,7 @@
       "change_level": "none",
       "change_reason": null,
       "ok": true,
-      "last_hash": "cd4f19f32ea9386b964aad6ad72fc0fb99374a8119ca96876fcdd150f3ac6502",
+      "last_hash": "bcc660a490955aa9787b2b7d1b933f06902c0d91388f48951a955e3c5ab7c0d8",
       "fee_hash": null,
       "http_status": 200,
       "error": null
