@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-10-19T06:13:27.510949+00:00",
+  "checked_at": "2026-10-26T06:14:51.262465+00:00",
   "sources": {
     "玉山銀行": {
       "url": "https://wealth.esunbank.com/zh-tw/-/media/ESUNBANK/Files/Wealth/Bonds/bond_A924.pdf",
@@ -20,7 +20,7 @@
       "change_level": "none",
       "change_reason": null,
       "ok": true,
-      "last_hash": "bb6732865e0c740af60517705baec3b965835a7010d846b4540678b67167f313",
+      "last_hash": "19a30ce9a664142b48c9001d79ad4c654fe7631e96ef9353b9b449a5bd221497",
       "fee_hash": null,
       "http_status": 200,
       "error": null
@@ -32,7 +32,7 @@
       "change_level": "none",
       "change_reason": null,
       "ok": true,
-      "last_hash": "f726cadb2746392f6c76aed63f74a62e47724d6465e5014b499104e249d4405e",
+      "last_hash": "7866ee62dd2e55fc83c1d63d1786862b5d11bd8ce404360a0c27583a32dcbabf",
       "fee_hash": null,
       "http_status": 200,
       "error": null
@@ -44,7 +44,7 @@
       "change_level": "none",
       "change_reason": null,
       "ok": true,
-      "last_hash": "46b10987fa353d336d6a8480b7b7d513fd2a4cd0b078af465bc00ae29ec2f253",
+      "last_hash": "5c529157fb903ce4f8c3ff3663579bc271f883cffdac40b488f9bf2503b458ac",
       "fee_hash": null,
       "http_status": 202,
       "error": null
@@ -56,7 +56,7 @@
       "change_level": "none",
       "change_reason": null,
       "ok": true,
-      "last_hash": "1f00962c73d1848ad186b6a7c42e7cd6bc6bf80d0f0bb93a1a2fa7d593e1bfff",
+      "last_hash": "c9771f1f280841304e7f1b29f7ae129b91aff32ba291433f6a56dac0e8f8de67",
       "fee_hash": null,
       "http_status": 200,
       "error": null
@@ -68,7 +68,7 @@
       "change_level": "none",
       "change_reason": null,
       "ok": true,
-      "last_hash": "916c689020ce0710423bf3cb76301c6ad934b8310c55b2a76f9f41ee6b95649d",
+      "last_hash": "efaff9547b3ef5564a9fdd11aa0e132c9ce557ab4c29c5a55cbb88c94dfb433a",
       "fee_hash": null,
       "http_status": 200,
       "error": null
@@ -111,7 +111,7 @@
     },
     "凱基證券": {
       "url": "https://mixtrade.kgi.com.tw/overseas/bond/",
-      "changed": true,
+      "changed": false,
       "fee_change_suspected": false,
       "change_level": "none",
       "change_reason": null,
@@ -128,7 +128,7 @@
       "change_level": "none",
       "change_reason": null,
       "ok": true,
-      "last_hash": "bcc660a490955aa9787b2b7d1b933f06902c0d91388f48951a955e3c5ab7c0d8",
+      "last_hash": "fc34278907878c91afdbf64831830dfea04189cc9b3bd987291e5322fe7db521",
       "fee_hash": null,
       "http_status": 200,
       "error": null
