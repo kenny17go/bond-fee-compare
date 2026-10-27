@@ -26,6 +26,14 @@
         "annual_high": 0.002,
         "annual_cap_years": 99,
         "special_rule": "一般按實際持有期間"
+      },
+      "channel_fee": {
+        "description": "0%–5%；非專業投資人年化後不超過受託投資總金額 0.5%",
+        "payment": "是（通路服務費內含申購價格）",
+        "annual_cap": 0.005,
+        "actual_rate": null,
+        "pricing": "embedded_or_counterparty",
+        "note": "非專業投資人公告年化上限，並非實際費率；按商品剩餘年期等條件計算，不等於投資人持有年數。"
       }
     },
     {
@@ -53,6 +61,14 @@
         "annual_high": 0.002,
         "annual_cap_years": 99,
         "special_rule": "第1年0.10%；第2年起0.20%"
+      },
+      "channel_fee": {
+        "description": "非專業投資人年化 ≤0.5%；專業投資人年化 ≤1%",
+        "payment": "是（通路服務費內含申購價格）",
+        "annual_cap": 0.005,
+        "actual_rate": null,
+        "pricing": "embedded_or_counterparty",
+        "note": "非專業投資人公告年化上限，並非實際費率；按商品剩餘年期等條件計算，不等於投資人持有年數。"
       }
     },
     {
@@ -80,6 +96,14 @@
         "annual_high": 0.0018,
         "annual_cap_years": 5,
         "special_rule": "提前賣出且含息報酬率>=1%時賣出費1%"
+      },
+      "channel_fee": {
+        "description": "年化 ≤0.5%",
+        "payment": "是（通路服務費內含申購價格）",
+        "annual_cap": 0.005,
+        "actual_rate": null,
+        "pricing": "embedded_or_counterparty",
+        "note": "非專業投資人公告年化上限，並非實際費率；按商品剩餘年期等條件計算，不等於投資人持有年數。"
       }
     },
     {
@@ -107,6 +131,14 @@
         "annual_high": 0.002,
         "annual_cap_years": 99,
         "special_rule": "一般通路服務費0.5%–4%內含報價；部分商品改收信託手續費0.5%–4%；提前贖回1.25%"
+      },
+      "channel_fee": {
+        "description": "一般債券通路服務費 0.5%–4%；非專業投資人年化後 ≤0.5%",
+        "payment": "是（一般通路服務費內含報價）",
+        "annual_cap": 0.005,
+        "actual_rate": null,
+        "pricing": "embedded_or_counterparty",
+        "note": "非專業投資人公告年化上限，並非實際費率；按商品剩餘年期等條件計算，不等於投資人持有年數。"
       }
     },
     {
@@ -134,6 +166,14 @@
         "annual_high": 0.0009,
         "annual_cap_years": 99,
         "special_rule": "按實際持有天數"
+      },
+      "channel_fee": {
+        "description": "0%–5%；非專業投資人年化不超過 0.5%",
+        "payment": "通路服務費由交易對手支付",
+        "annual_cap": 0.005,
+        "actual_rate": null,
+        "pricing": "embedded_or_counterparty",
+        "note": "非專業投資人公告年化上限，並非實際費率；按商品剩餘年期等條件計算，不等於投資人持有年數。"
       }
     },
     {
@@ -161,6 +201,14 @@
         "annual_high": 0.002,
         "annual_cap_years": 4,
         "special_rule": "第1年0；第2年起0.2%，累計最多0.6%"
+      },
+      "channel_fee": {
+        "description": "年化 ≤0.5%",
+        "payment": "是（通路服務費內含申購價格）",
+        "annual_cap": 0.005,
+        "actual_rate": null,
+        "pricing": "embedded_or_counterparty",
+        "note": "非專業投資人公告年化上限，並非實際費率；按商品剩餘年期等條件計算，不等於投資人持有年數。"
       }
     },
     {
@@ -188,6 +236,14 @@
         "annual_high": 0,
         "annual_cap_years": 0,
         "special_rule": "交易手續費內含成交價；非專業機構投資人每筆≤5%"
+      },
+      "channel_fee": {
+        "description": "交易手續費已內含成交價格；非專業機構投資人≤5%/筆，專業機構投資人≤10%/筆",
+        "payment": "是（內含成交價）",
+        "annual_cap": null,
+        "actual_rate": null,
+        "pricing": "embedded_or_counterparty",
+        "note": "未取得可直接套用之獨立通路服務費率；不得將內含交易手續費誤當通路服務費。"
       }
     },
     {
@@ -215,6 +271,14 @@
         "annual_high": 0.002,
         "annual_cap_years": 99,
         "special_rule": "是否收取依商品"
+      },
+      "channel_fee": {
+        "description": "0%–0.5%/年",
+        "payment": "通路服務費非客戶直接另付",
+        "annual_cap": 0.005,
+        "actual_rate": null,
+        "pricing": "embedded_or_counterparty",
+        "note": "非專業投資人公告年化上限，並非實際費率；按商品剩餘年期等條件計算，不等於投資人持有年數。"
       }
     },
     {
@@ -242,6 +306,14 @@
         "annual_high": 0,
         "annual_cap_years": 0,
         "special_rule": "海外債券內含手續費≤投資總金額5%/筆"
+      },
+      "channel_fee": {
+        "description": "內含手續費≤投資商品總金額5%/筆",
+        "payment": "是（內含申購/成交價格）",
+        "annual_cap": null,
+        "actual_rate": null,
+        "pricing": "embedded_or_counterparty",
+        "note": "未取得可直接套用之獨立通路服務費率；不得將內含交易手續費誤當通路服務費。"
       }
     },
     {
@@ -269,6 +341,14 @@
         "annual_high": 0,
         "annual_cap_years": 0,
         "special_rule": "交易手續費已含成交價，≤5%為上限"
+      },
+      "channel_fee": {
+        "description": "年化 ≤0.5%",
+        "payment": "是（交易手續費內含成交價）",
+        "annual_cap": 0.005,
+        "actual_rate": null,
+        "pricing": "embedded_or_counterparty",
+        "note": "非專業投資人公告年化上限，並非實際費率；按商品剩餘年期等條件計算，不等於投資人持有年數。"
       }
     },
     {
@@ -296,6 +376,14 @@
         "annual_high": 0.002,
         "annual_cap_years": 99,
         "special_rule": "個別商品可能為0%~0.2%"
+      },
+      "channel_fee": {
+        "description": "債券通路服務費由交易對手支付，依市場情形",
+        "payment": "通路服務費非客戶直接另付",
+        "annual_cap": null,
+        "actual_rate": null,
+        "pricing": "embedded_or_counterparty",
+        "note": "未取得可直接套用之獨立通路服務費率；不得將內含交易手續費誤當通路服務費。"
       }
     }
   ]
