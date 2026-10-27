@@ -19,12 +19,17 @@ function components(p){
 }
 function render(){
  const q=(document.querySelector('#filter')?.value||'').toLowerCase(),sort=document.querySelector('#sortMode')?.value||'low';
- const meta={total:['總成本排行榜','依目前情境計算。'],buy:['申購費排行榜','只比較買進時的顯性費用。'],sell:['賣出費排行榜','只比較提前退出成本。'],hold:['持有費排行榜','依持有年數計算。'],embedded:['內含費用比較','僅比較公告上限與揭露方式。']}[MODE];
+ const meta={total:['總成本排行榜','依目前情境計算。'],buy:['申購費排行榜','只比較買進時的顯性費用。'],sell:['賣出費排行榜','只比較提前退出成本。'],hold:['持有費排行榜','依持有年數計算。'],embedded:['內含費用比較','僅比較公告上限與揭露方式。'],channel:['通路服務費比較','獨立揭露通路服務費；公告上限不是實際成本，且不可與已內含報價重複加總。']}[MODE];
  document.querySelector('#rankingTitle').textContent=meta[0];document.querySelector('#rankingNote').textContent=meta[1];
  document.querySelectorAll('.tab').forEach(b=>b.classList.toggle('active',b.dataset.mode===MODE));
  let rows=DATA.platforms.map(p=>({...p,c:components(p)})).filter(x=>x.name.toLowerCase().includes(q));
- rows.sort((a,b)=>{if(sort==='name')return a.name.localeCompare(b.name,'zh-Hant');let av,bv;if(MODE==='embedded'){av=a.c.embedded.max??(sort==='low'?9e18:-1);bv=b.c.embedded.max??(sort==='low'?9e18:-1)}else{av=a.c[MODE].known?a.c[MODE].high:(sort==='low'?9e18:-1);bv=b.c[MODE].known?b.c[MODE].high:(sort==='low'?9e18:-1)}return sort==='high'?bv-av:av-bv});
- if(MODE==='embedded'){
+ rows.sort((a,b)=>{if(sort==='name')return a.name.localeCompare(b.name,'zh-Hant');let av,bv;if(MODE==='channel'){av=a.channel_fee?.annual_cap??(sort==='low'?9e18:-1);bv=b.channel_fee?.annual_cap??(sort==='low'?9e18:-1)}else if(MODE==='embedded'){av=a.c.embedded.max??(sort==='low'?9e18:-1);bv=b.c.embedded.max??(sort==='low'?9e18:-1)}else{av=a.c[MODE].known?a.c[MODE].high:(sort==='low'?9e18:-1);bv=b.c[MODE].known?b.c[MODE].high:(sort==='low'?9e18:-1)}return sort==='high'?bv-av:av-bv});
+ if(MODE==='channel'){
+  document.querySelector('#costHead').innerHTML='<tr><th>平台</th><th>類型</th><th>通路服務費</th><th>公告年化上限</th><th>收費方式與說明</th></tr>';
+  document.querySelector('#costBody').innerHTML=rows.map(x=>`<tr><td><strong>${x.name}</strong></td><td>${x.type}</td><td>${x.channel_fee?.description||'待確認'}</td><td>${x.channel_fee?.annual_cap!=null?(x.channel_fee.annual_cap*100).toFixed(2)+'%':'未揭露固定上限'}</td><td>${x.channel_fee?.payment||'—'}；${x.channel_fee?.note||'—'}</td></tr>`).join('');
+  const known=rows.filter(x=>x.channel_fee?.annual_cap!=null).length;
+  document.querySelector('#summary').innerHTML=`<div class="metric"><div class="label">有年化上限資料</div><div class="value">${known}/${rows.length}</div></div><div class="metric"><div class="label">實際費率</div><div class="value" style="font-size:18px">逐筆報價確認</div></div><div class="metric"><div class="label">成本加總</div><div class="value" style="font-size:18px">避免重複計算</div></div>`;
+ }else if(MODE==='embedded'){
   document.querySelector('#costHead').innerHTML='<tr><th>平台</th><th>類型</th><th>內含費用揭露</th><th>依目前情境估算上限</th><th>官方來源</th></tr>';
   document.querySelector('#costBody').innerHTML=rows.map(x=>`<tr><td><strong>${x.name}</strong></td><td>${x.type}</td><td>${x.c.embedded.label}</td><td>${x.c.embedded.max==null?'無法直接計算':money(x.c.embedded.max)}</td><td><a href="${x.source}" target="_blank">官方頁 ↗</a></td></tr>`).join('');
   const c=rows.filter(x=>x.c.embedded.max!=null);document.querySelector('#summary').innerHTML=`<div class="metric"><div class="label">有公告上限的平台</div><div class="value">${c.length}/${rows.length}</div></div><div class="metric"><div class="label">提醒</div><div class="value" style="font-size:18px">上限 ≠ 實際費率</div></div><div class="metric"><div class="label">用途</div><div class="value" style="font-size:18px">看透明度</div></div>`;
