@@ -49,6 +49,7 @@ function render(){
       <div class="kv"><b>申購/買入</b><span>${p.buy_fee_text||'—'}</span></div>
       <div class="kv"><b>賣出/贖回</b><span>${p.sell_fee_text||'—'}</span></div>
       <div class="kv"><b>持有費</b><span>${p.custody_fee_text||'—'}</span></div>
+      <div class="kv"><b>通路服務費</b><span>${p.channel_fee?.description||'待確認'}；${p.channel_fee?.note||''}</span></div>
       <div class="kv"><b>內含費用</b><span>${p.embedded_fee_text||'—'}</span></div>
       <div class="kv"><b>官方來源</b><span><a href="${p.source}" target="_blank" rel="noopener">開啟官方頁 ↗</a></span></div>
     </article>`).join('');
