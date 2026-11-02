@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-10-26T06:14:51.262465+00:00",
+  "checked_at": "2026-11-02T07:41:11.456660+00:00",
   "sources": {
     "玉山銀行": {
       "url": "https://wealth.esunbank.com/zh-tw/-/media/ESUNBANK/Files/Wealth/Bonds/bond_A924.pdf",
@@ -20,7 +20,7 @@
       "change_level": "none",
       "change_reason": null,
       "ok": true,
-      "last_hash": "19a30ce9a664142b48c9001d79ad4c654fe7631e96ef9353b9b449a5bd221497",
+      "last_hash": "3d3e9da2d927e144660131af1e8e459d8c32a11e115f929c860f6fb31e598166",
       "fee_hash": null,
       "http_status": 200,
       "error": null
@@ -32,7 +32,7 @@
       "change_level": "none",
       "change_reason": null,
       "ok": true,
-      "last_hash": "7866ee62dd2e55fc83c1d63d1786862b5d11bd8ce404360a0c27583a32dcbabf",
+      "last_hash": "158bd3a5f4a384b44b1a81846825a60c9e2e8bde3604f2879b96144865d3fc07",
       "fee_hash": null,
       "http_status": 200,
       "error": null
@@ -44,14 +44,14 @@
       "change_level": "none",
       "change_reason": null,
       "ok": true,
-      "last_hash": "5c529157fb903ce4f8c3ff3663579bc271f883cffdac40b488f9bf2503b458ac",
+      "last_hash": "4bdc475ac0e57a05703eb0727cb49ac940518a7ab851b8cf34177b59dd55f00e",
       "fee_hash": null,
       "http_status": 202,
       "error": null
     },
     "台新銀行": {
       "url": "https://www.taishinbank.com.tw/TSB/personal/investment/offshore-bond/offshore-bond/TSBankGridPage-000088-00001/",
-      "changed": true,
+      "changed": false,
       "fee_change_suspected": false,
       "change_level": "none",
       "change_reason": null,
@@ -68,7 +68,7 @@
       "change_level": "none",
       "change_reason": null,
       "ok": true,
-      "last_hash": "efaff9547b3ef5564a9fdd11aa0e132c9ce557ab4c29c5a55cbb88c94dfb433a",
+      "last_hash": "cee1eb8edcf57a7c590f7d8c20370e728f9a9629f78549669c3a15e855e5d9a7",
       "fee_hash": null,
       "http_status": 200,
       "error": null
@@ -128,7 +128,7 @@
       "change_level": "none",
       "change_reason": null,
       "ok": true,
-      "last_hash": "fc34278907878c91afdbf64831830dfea04189cc9b3bd987291e5322fe7db521",
+      "last_hash": "c702a49cab937e9d3d53a0b932107efa52ebce1706de326c16f5d28ed4048a53",
       "fee_hash": null,
       "http_status": 200,
       "error": null
